@@ -5,13 +5,12 @@ from django.http import HttpResponseServerError
 from rest_framework.viewsets import ViewSet
 from rest_framework.response import Response
 from rest_framework import serializers
-from rest_framework import status
 from django.contrib.auth.models import User
 from DogBlogapi.models import Post, PostUser,
 from datetime import date
 
 
-class Post(ViewSet):
+class Posts(ViewSet):
     """Posts"""
 
     def create(self, request):
