@@ -1,11 +1,8 @@
 import json
 from django.http import HttpResponse
-from django.contrib.auth import login, authenticate
-from django.contrib.auth.models import User
+from django.contrib.auth import authenticate
 from rest_framework.authtoken.models import Token
 from django.views.decorators.csrf import csrf_exempt
-from DogBlogapi.models import postUser
-from datetime import datetime
 @csrf_exempt
 def login_user(request):
     '''Handles the authentication of a gamer

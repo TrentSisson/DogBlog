@@ -6,7 +6,7 @@ from rest_framework.viewsets import ViewSet
 from rest_framework.response import Response
 from rest_framework import serializers
 from django.contrib.auth.models import User
-from DogBlogapi.models import Post, PostUser,
+from DogBlogapi.models import Post, PostUser
 from datetime import date
 
 
