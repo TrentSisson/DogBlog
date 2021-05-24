@@ -73,7 +73,7 @@ class Posts(ViewSet):
         post = Post.objects.get(pk=pk)
         post.user = user
         post.title = request.data["title"]
-        post.date = request.data["Date"]
+        post.date = request.data["date"]
         post.text = request.data["text"]
         post.save()
         # 204 status code means everything worked but the
