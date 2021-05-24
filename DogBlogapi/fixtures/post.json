@@ -1,0 +1,12 @@
+[
+    {
+        "model": "DogBlogapi.post",
+        "pk": 1,
+        "fields": {
+            "user": 1,
+            "title": "poop in a shoe",
+            "date": "2020-05-06",
+            "text": "my dogs pooped in my shoe"
+        }
+    }
+]
