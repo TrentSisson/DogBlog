@@ -4,7 +4,7 @@
         {
             "previewLimit": 50,
             "driver": "SQLite",
-            "name": "dogblog",
+            "name": "DogBlog",
             "database": "db.sqlite3"
         }
     ]
