@@ -19,6 +19,7 @@ from rest_framework import routers
 from DogBlogapi.views import login_user
 from DogBlogapi.views import Posts
 router = routers.DefaultRouter(trailing_slash=False)
+router.register(r'posts',Posts,'post')
 urlpatterns = [
     path('', include(router.urls)),
     path('login', login_user),
