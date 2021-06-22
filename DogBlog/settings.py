@@ -14,7 +14,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = '-gijyq8w9z-1ohiyu580#t7azq!%e(fuvw_i=b3(*zt1hciw7h'
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 ALLOWED_HOSTS = []
 # Application definition
 INSTALLED_APPS = [
