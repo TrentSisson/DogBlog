@@ -14,7 +14,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = '-gijyq8w9z-1ohiyu580#t7azq!%e(fuvw_i=b3(*zt1hciw7h'
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 ALLOWED_HOSTS = []
 # Application definition
 INSTALLED_APPS = [
@@ -41,7 +41,8 @@ REST_FRAMEWORK = {
 }
 CORS_ORIGIN_WHITELIST = (
     'http://localhost:3000',
-    'http://127.0.0.1:3000'
+    'http://127.0.0.1:3000',
+    'https://dogblogs.herokuapp.com'
 )
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
