@@ -1,1 +1,1 @@
-web: gunicorn levelup.wsgi --log-file -
+web: gunicorn DogBlog.wsgi --log-file -
